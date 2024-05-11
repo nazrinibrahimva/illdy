@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+ /* background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg); */
+   
+}
+
+ul , li{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    color: white;
+   
+}
+ul li a {
+    text-decoration: none;
+}
+
+.box {
+    margin-top: -100px;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+
+.box_title h1 {
+  font-size:90px;
+
+}
+h1 {
+    color: white;
+}
+span{
+    color: yellow;
+}
+ul{ 
+    color: white;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+.navbar ul li a {
+    color: white;
+}
+
+.container2 .but1:hover {
+    background-color: rgba( 0, 0, 0, .2 );
+}
+
+.container2 .but2:hover {
+    background-color: rgb(143, 60, 184);
+}
+
+
+.container {
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.container2 {
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+    
+}
+.sag{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .2);
+    border-color: white;
+    color: white;
+}
+.sol{
+    width: 200px;
+    height: 60px;
+    background-color: #f1d204;
+    border-color: #f1d204;
+    color: white;
+}
+.box2{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    width: 70%;
+    height: 25vh;
+}
+.container3 h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+h2{
+    color:  #545454;
+}
+.container3 p{
+    font-size: 16px;
+    color: #8c9597;
+}
+.box3{
+    width: 100%;
+    height: 30vh;
+    background-color: #a29f9f2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container5{
+    width: 70%;
+    height: 15vh;
+}
+.container5 h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.container5 p{
+    font-size: 16px;
+    color: #8c9597;
+}
+.box4{
+    width: 100%;
+    height: 40vh;
+    background-color: #f1d204;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 div{
+    width: 25%;
+    height: 40vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo1{
+    background-image: url(https://st3.depositphotos.com/13349494/16074/i/450/depositphotos_160748434-stock-photo-desk-with-laptop-cand-cup.jpg);
+}
+.photo2{
+    background-image: url(https://c8.alamy.com/comp/2EPG7MK/smart-phoneearphone-and-laptop-computer-with-cup-of-coffee-on-old-wooden-background-with-copy-space-top-view-2EPG7MK.jpg);
+}
+.photo3{
+    background-image: url(https://c8.alamy.com/comp/2AR83WJ/workspace-with-laptop-diary-and-a-cup-of-coffee-on-white-background-stylish-office-table-desk-in-white-color-with-flowerpot-flat-lay-top-view-2AR83WJ.jpg);
+}
+.photo4{
+    background-image: url(https://www.shutterstock.com/image-photo/work-home-desk-office-laptop-600nw-1705341190.jpg);
+}
+
+.btn {
+    width: 80%;
+ height: 150px;
+ display: flex;
+ justify-content: space-around;
+ align-items: end;
+ padding-bottom: 80px;
+
+}
+
+.border {
+    width: 25%;
+    height: 4px;
+    background-color: rgba(170, 170, 170, 0.219);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress {
+    width: 60%;
+    background-color: orange;
+    height: 4px;
+
+}
+
+.dot{
+    background-color: orange;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge{
+    position: absolute;
+    bottom: 30px;
+    background-color: orange;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: orange;
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+
+
+.btn1 {
+    width: 300px;
+ height: 100px;
+ display: flex;
+
+ align-items: end;
+
+}
+
+.border1 {
+    width: 100%;
+    height: 4px;
+    background-color:rgba(170, 170, 170, 0.219);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.progress1{
+    width: 82%;
+    background-color: rgba(196, 199, 54, 0.971);
+    height: 4px;
+
+}
+
+.dot1{
+    background-color: rgba(196, 199, 54, 0.971);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge1{
+    position: absolute;
+    bottom: 30px;
+    background-color: rgba(196, 199, 54, 0.971);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge1::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgba(196, 199, 54, 0.971);
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+
+
+
+.btn2{
+    width: 300px;
+ height: 100px;
+ display: flex;
+ align-items: end;
+
+}
+
+.border2 {
+    width: 100%;
+    height: 4px;
+    background-color:rgba(170, 170, 170, 0.219);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.progress2{
+    width: 86%;
+    background-color: rgba(34, 26, 98, 0.971);
+    height: 4px;
+
+}
+
+.dot2{
+    background-color:  rgba(34, 26, 98, 0.971);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge2{
+    position: absolute;
+    bottom: 30px;
+    background-color: rgba(34, 26, 98, 0.971);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
